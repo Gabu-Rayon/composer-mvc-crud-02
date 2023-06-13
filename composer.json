@@ -1,0 +1,15 @@
+{
+  "name": "autoload/good",
+  "authors": [
+    {
+      "name": "Gabu-Rayon",
+      "email": "gibsonmurimi4@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    }
+  }
+}
