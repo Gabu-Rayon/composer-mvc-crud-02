@@ -35,17 +35,17 @@ class Router {
          
           */  
           
-    // $currentUrl  = $_SERVER['PATH_URI'] ??  '/';
+    $currentUrl  = $_SERVER['PATH_URI'] ??  '/';
 
-    //  if (strpos($currentUrl,'?') !== false) {
+     if (strpos($currentUrl,'?') !== false) {
       
-    //    $currentUrl = substr($currentUrl ,0, strpos($currentUrl,'?'));
+       $currentUrl = substr($currentUrl ,0, strpos($currentUrl,'?'));
     
-    //   }
+      }
 
     
     
-    $currentUrl  = $_SERVER['PATH_INFO'] ??  '/';
+    // $currentUrl  = $_SERVER['PATH_INFO'] ??  '/';
     $method= $_SERVER['REQUEST_METHOD'];
     
     
