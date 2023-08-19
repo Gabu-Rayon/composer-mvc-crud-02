@@ -25,7 +25,7 @@ $router->post('/products/create', [new ProductController(), 'create']); // to th
 $router->get('/products/update', [new ProductController(), 'update']); // to this
 
 // $router->post('/products/update', [ProductController::class, 'update']);
-$router->post('/products/update', [new ProductController(), 'update']); // to this
+$router->post('/products/update', [new ProductController(), 'update']);
 
 // $router->post('/products/delete', [ProductController::class, 'delete']);
 $router->post('/products/delete', [new ProductController(), 'delete']);
