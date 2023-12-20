@@ -1,6 +1,6 @@
 # composer-mvc-crud
 
 
-         Using Composer Depedancy 
+         Using Composer  
          OOP  Object Oriented Programming
          PHP 8.*
